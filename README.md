@@ -5,7 +5,7 @@ A simple biome blender class, using a region cache and a blur kernel. The demo b
 ### Features
 
 - Biome source agnostic. Any generator that can populate an NxN region with biomes (where N is a power of two plus padding), such that each region is part of the larger picture, can be adapted.
-- Constant blending distance. The travel distance over each transition border in the world should be roughly the same.
+- Constant blending distance. The travel distance over each transition zone in the world should be roughly the same.
 
 ### Limitations
 
