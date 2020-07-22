@@ -9,6 +9,7 @@ A simple biome blender class, using a region cache and a blur kernel. The demo b
 
 ### Limitations
 
+- Blending takes notably more time than noise computation.
 - Larger blending radii increase the generation time quadratically.
 - Current version not threadsafe when multiple chunks are generated on different threads.
 - No opportunity for performance enhancement where it is certain only one biome is in range of the blending kernel.
