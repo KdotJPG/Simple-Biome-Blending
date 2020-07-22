@@ -15,6 +15,12 @@ A simple biome blender class, using a region cache and a blur kernel. The demo b
 - No opportunity for performance enhancement where it is certain only one biome is in range of the blending kernel.
 - Included biome placement is for demonstration and does not attempt to avoid certain biomes bordering others (e.g. a desert and a snowy tundra).
 
+### Possible future improvements
+
+- Try large biome-indexed array instead of list, to build up biome weights.
+- Look into and apply articles on optimized gaussian blur.
+- Account for the fact that most cells in a row are the same (closed form solution for sum of successive kernel values?)
+
 ### Image
 
 ![Demo Image](images/demo.png?raw=true)
